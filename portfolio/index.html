@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakalapati Jyoshna Varma - Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav id="navbar" class="navbar">
+      <a href="#hero" class="logo">Jyoshna Varma</a>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Mobile toggle -->
+      <div class="nav-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Pakalapati Jyoshna Varma</h1>
+      <p class="subtitle">Aspiring Software & AI Developer</p>
+      <p>
+        Welcome to my portfolio! I am passionate about creating beautiful and
+        functional web applications and AI-powered solutions. Explore my
+        projects in education, healthcare and sustainability, and feel free to
+        get in touch.
+      </p>
+
+      <div class="hero-buttons">
+        <!-- Resume button (works with assets/resume.pdf) -->
+        <a href="assets/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">
+          View Resume
+        </a>
+        <a href="#projects" class="btn btn-secondary">View Projects</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <!-- Your profile photo -->
+      <img src="assets/profile.jpg" alt="Photo of Jyoshna" />
+    </div>
+  </section>
+
+  <main>
+    <!-- About -->
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <p>
+        I am a B.Tech Computer Science (AIML) student with strong fundamentals
+        in Python, web development and AI/ML. I enjoy building real-world
+        applications that solve meaningful problems, especially in education,
+        healthcare and sustainability. I love learning by doing and constantly
+        improving my technical and problem-solving skills.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <!-- Programming -->
+        <li>Python</li>
+        <li>C</li>
+
+        <!-- Web -->
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Flask</li>
+        <li>Django</li>
+        <li>Node.js</li>
+        <li>Express</li>
+
+        <!-- Databases & Tools -->
+        <li>MySQL</li>
+        <li>MongoDB (Basics)</li>
+        <li>Git</li>
+        <li>VS Code</li>
+
+        <!-- AI & Other -->
+        <li>AI &amp; ML Fundamentals</li>
+        <li>Data Science Basics</li>
+        <li>UI/UX Principles</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    <!-- Project 1 -->
+    <article class="project-item">
+      <h3>AI-Powered Support for Learning and Teaching</h3>
+      <p>
+        Developed a web-based platform using Flask and MongoDB that leverages
+        AI to dynamically generate quizzes (via Groq API), automatically assess
+        answers, and provide personalized feedback and targeted recommendations.
+        Includes performance tracking and learner categorization for improved
+        learning outcomes.
+      </p>
+      <ul class="project-tags">
+        <li>Flask</li>
+        <li>MongoDB</li>
+        <li>Groq API</li>
+        <li>AI Quiz Generator</li>
+      </ul>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-item">
+      <h3>Handling Big Data Using AI in Healthcare</h3>
+      <p>
+        Built a healthcare data analysis system using CNNs to process large
+        patient datasets for early disease detection and automated diagnosis.
+        Improves accessibility, enhances accuracy, and supports faster clinical
+        decision-making.
+      </p>
+      <ul class="project-tags">
+        <li>CNN</li>
+        <li>Python</li>
+        <li>Healthcare AI</li>
+        <li>Predictive Analytics</li>
+      </ul>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project-item">
+      <h3>Smart Serve – AI-Powered Food Waste Management</h3>
+      <p>
+        Developed an AI-driven food waste optimization system with predictive
+        analytics for surplus estimation, NGO donation matching, expiry alerts,
+        and sustainability tracking. Features an interactive Streamlit dashboard
+        for real-time insights.
+      </p>
+      <ul class="project-tags">
+        <li>Machine Learning</li>
+        <li>Streamlit</li>
+        <li>Predictive Modelling</li>
+        <li>Sustainability</li>
+      </ul>
+    </article>
+
+    <!-- ⭐ NEW PROJECT: AlertAura -->
+    <article class="project-item">
+      <h3>AlertAura – AI Smart Assistant for Reminders & Meetings</h3>
+      <p>
+        Built an AI-powered assistant using Python, Gradio, and Groq Llama-3
+        that interprets natural language to automate reminders and meeting
+        scheduling. Integrated MongoDB for persistent storage and implemented
+        intelligent intent classification to perform tasks like creating,
+        listing, updating, and deleting reminders or meetings.
+      </p>
+      <ul class="project-tags">
+        <li>Python</li>
+        <li>Groq Llama-3</li>
+        <li>Gradio UI</li>
+        <li>MongoDB</li>
+        <li>AI Intent Detection</li>
+      </ul>
+    </article>
+  </div>
+</section>
+    <!-- Education -->
+    <section id="education" class="section education">
+      <h2>Education</h2>
+      <p>
+        <strong>B.Tech in Computer Science (AIML)</strong>,  
+        KG Reddy College of Engineering and Technology  
+        <br />Expected Graduation: 2026
+      </p>
+      <br />
+      <p>
+        <strong>Higher Secondary Education</strong>,  
+        Narayana Junior College – Score: 978
+      </p>
+      <br />
+      <p>
+        <strong>Secondary School Education</strong>,  
+        Annapurna High School – 97%
+      </p>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Fundamentals of Generative AI – GUVI (SAWIT.AI Learnathon)</li>
+        <li>Full Stack Development Bootcamp – I &amp; T Labs</li>
+        <li>Cyber Security and Ethical Hacking – Rinex &amp; E-Cell IIT Bhubaneswar</li>
+        <li>
+          Programming for Everybody (Getting Started with Python) – University of Michigan
+          (Coursera) – Certificate ID: 9MFEJMAZ9EW6
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me for internships, projects or collaborations.</p>
+      <ul class="contact-list">
+        <li>Phone: <a href="tel:+918790545175">+91 87905 45175</a></li>
+        <li>Email: <a href="mailto:jyoshnapakalapati17@gmail.com">jyoshnapakalapati17@gmail.com</a></li>
+        <li>
+          LinkedIn:
+          <a href="#" target="_blank" rel="noopener noreferrer">pakalapati jyoshna</a>
+          <!-- https://www.linkedin.com/in/pakalapati-jyoshna/ -->
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Pakalapati Jyoshna Varma. All rights reserved.</p>
+    <p>Designed and built by Jyoshna Varma.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
